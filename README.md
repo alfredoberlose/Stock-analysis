@@ -17,13 +17,13 @@ Includes monthly returns, stationarity tests, trend/residual decomposition, hist
 ## Example Outputs
 
 ### Momentum VS Mean reverting
-![Boxplot](season.png)
+![Boxplot](momvsrev.png)
 
 ### Transition Matrix Heatmap
-![Transition Matrix](images/transition_matrix.png)
+![Transition Matrix](matrix.png)
 
 ### Price Action Comparison (Similar Years)
-![Price Action](images/price_action.png)
+![Price Action](season.png)
 
 ---
 
