@@ -1,2 +1,36 @@
-# Stock-analysis
-Seasonality and pattern analysis of financial markets with Python. Includes monthly returns, stationarity tests, trend/residual decomposition, and historical year comparisons. Provides probability metrics (transitions, down-streaks, autocorrelations) to detect momentum or mean-reversion phases.
+# Market Seasonality Analysis
+
+Python notebook for exploring financial market seasonality and behavioral patterns.  
+Includes monthly returns, stationarity tests, trend/residual decomposition, historical comparisons, and price action studies.
+
+## Features
+- 📊 Boxplot of monthly returns (seasonality patterns)
+- 📉 Augmented Dickey–Fuller test for stationarity
+- 📈 Trend vs residual decomposition
+- 🎃 October effect analysis
+- 🔄 Transition probabilities (Up/Down days)
+- 📉 Probability of rebound after down-streaks
+- 📡 Autocorrelation of return signs
+- 🔀 Momentum vs mean reversion (P(Up|Up), P(Up|Down))
+- 💹 Price action comparisons across years
+
+## Example Outputs
+
+### Monthly Returns Boxplot
+![Boxplot](images/boxplot.png)
+
+### Transition Matrix Heatmap
+![Transition Matrix](images/transition_matrix.png)
+
+### Price Action Comparison (Similar Years)
+![Price Action](images/price_action.png)
+
+---
+
+## Requirements
+- Python 3.9+
+- `numpy`, `pandas`, `matplotlib`, `statsmodels`, `yfinance`, `scipy`
+
+Install via:
+```bash
+pip install -r requirements.txt
