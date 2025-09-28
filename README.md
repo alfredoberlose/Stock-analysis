@@ -16,8 +16,8 @@ Includes monthly returns, stationarity tests, trend/residual decomposition, hist
 
 ## Example Outputs
 
-### Monthly Returns Boxplot
-![Boxplot](images/boxplot.png)
+### Momentum VS Mean reverting
+![Boxplot](season.png)
 
 ### Transition Matrix Heatmap
 ![Transition Matrix](images/transition_matrix.png)
