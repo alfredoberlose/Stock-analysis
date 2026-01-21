@@ -1,4 +1,4 @@
-# Market Seasonality Analysis
+# Stocks Seasonality Analysis
 
 Python notebook for exploring financial market seasonality and behavioral patterns.  
 Includes monthly returns, stationarity tests, trend/residual decomposition, historical comparisons, and price action studies.
